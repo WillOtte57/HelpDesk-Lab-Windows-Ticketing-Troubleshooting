@@ -1,0 +1,143 @@
+## Ticket #001 — Computer Running Slow
+
+**User Issue:** User reported system performance was very slow during normal use.
+
+**Reported Via:** Help Desk Ticket
+
+**Impact:** Medium
+
+**System/Device:** Windows 11 VM
+
+**Troubleshooting Steps:**
+1. Verified user issue and gathered details.
+2. Opened Task Manager to review CPU and memory usage.
+3. Identified multiple high-usage applications running simultaneously.
+4. Closed unnecessary applications.
+5. Disabled non-essential startup programs.
+6. Restarted the system to apply changes.
+
+**Root Cause:** Excessive background and startup applications consuming system resources.
+
+**Resolution:** Reduced running applications and disabled startup programs, restoring normal system performance.
+
+**Escalation Needed?:** No
+
+**Notes:** Advised user to limit startup apps and restart system periodically.
+
+---------------------------------------------------------------------------------------------------------------
+
+
+## Ticket #002 — No Internet Connection
+
+**User Issue:** User reported inability to connect to the internet.
+
+**Reported Via:** Phone Call
+
+**Impact:** High
+
+**System/Device:** Windows 11 VM
+
+**Troubleshooting Steps:**
+1. Verified user issue and confirmed no internet access.
+2. Checked network connection status.
+3. Ran ipconfig to verify IP address.
+4. Tested connectivity using ping to an external IP address.
+5. Tested DNS resolution using ping to a domain name.
+6. Reconnected network adapter.
+7. Verified internet access was restored.
+
+**Root Cause:** Network adapter was disconnected.
+
+**Resolution:** Reconnected network adapter and confirmed internet connectivity.
+
+**Escalation Needed?:** No
+
+**Notes:** Advised user to check network connection if issue occurs again.
+
+
+---------------------------------------------------------------------------------------------------------------
+
+## Ticket #003 — Printer Not Printing
+
+**User Issue:** User reported printer was not printing documents.
+
+**Reported Via:** Help Desk Ticket
+
+**Impact:** Medium
+
+**System/Device:** Windows 11 VM
+
+**Troubleshooting Steps:**
+1. Verified printer issue with user.
+2. Checked printer settings in Printers & Scanners.
+3. Opened Windows Services console.
+4. Located the Print Spooler service.
+5. Restarted the Print Spooler service.
+6. Confirmed service status was running.
+
+**Root Cause:** Print Spooler service was stalled.
+
+**Resolution:** Restarted Print Spooler service, restoring printing functionality.
+
+**Escalation Needed?:** No
+
+**Notes:** Informed user that restarting the printer service resolves most print queue issues.
+
+----------------------------------------------------------------------------------------------------------------
+
+## Ticket #004 — Account Locked / Password Reset
+
+**User Issue:** User reported inability to log in to their account.
+
+**Reported Via:** Phone Call
+
+**Impact:** High
+
+**System/Device:** Windows 11 VM
+
+**Troubleshooting Steps:**
+1. Verified user identity per procedure.
+2. Confirmed account access issue.
+3. Accessed user account settings.
+4. Reset user password.
+5. Instructed user to log in with new password.
+6. Confirmed successful login.
+
+**Root Cause:** Incorrect password entered multiple times resulting in account lockout.
+
+**Resolution:** Reset password and restored account access.
+
+**Escalation Needed?:** No
+
+**Notes:** Reminded user of password requirements and security best practices.
+
+---------------------------------------------------------------------------------------------------------------
+
+## Ticket #005 — Low Disk Space
+
+**User Issue:** User reported system warning indicating low disk space.
+
+**Reported Via:** Help Desk Ticket
+
+**Impact:** Medium
+
+**System/Device:** Windows 11 VM
+
+**Troubleshooting Steps:**
+1. Checked available disk space on system drive.
+2. Ran Disk Cleanup utility.
+3. Removed temporary and unnecessary files.
+4. Emptied Recycle Bin.
+5. Verified increase in available disk space.
+
+**Root Cause:** Accumulation of temporary and unused files.
+
+**Resolution:** Removed unnecessary files to restore sufficient disk space.
+
+**Escalation Needed?:** No
+
+**Notes:** Advised user to periodically clean up files and avoid storing large files locally.
+
+
+
+
